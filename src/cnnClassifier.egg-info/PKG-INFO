@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/davidbedoya0/kidney-disease-mlflow-dvc-project
+Author: davidbedoya0
+Author-email: cd.bedoya10@gmail.com
+Project-URL: Bug Tracker, https://github.com/davidbedoya0/kidney-disease-mlflow-dvc-project/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow>=2.12.0
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: python-box>=6.0.2
+Requires-Dist: PyYAML
+Requires-Dist: tqdm
+Requires-Dist: ensure>=1.0.2
+Requires-Dist: joblib
+Requires-Dist: scipy
+Requires-Dist: Flask
+Requires-Dist: Flask-Cors
+Requires-Dist: gdown
+
+# Kidney Disease Classification Project
+
+A machine learning project for kidney disease classification using CNN (Convolutional Neural Networks) with MLflow for experiment tracking and DVC for data version control.
+
+## Features
+
+- CNN-based kidney disease classification
+- MLflow integration for experiment tracking
+- DVC for data version control
+- Flask web application
+- Comprehensive project structure
+
+## Installation
+
+1. Clone the repository
+2. Create a conda environment: `conda create -n kidney python=3.8 -y`
+3. Activate the environment: `conda activate kidney`
+4. Install dependencies: `pip install -r requirements.txt`
+
+## Project Structure
+
+```
+kidney-disease-mlflow-dvc-project/
+├── src/cnnClassifier/     # Main package
+├── config/               # Configuration files
+├── research/             # Jupyter notebooks
+├── templates/            # Web templates
+└── requirements.txt      # Dependencies
+```
+
+## Usage
+
+[Add usage instructions here]
+
+## License
+
+MIT License
